@@ -9,6 +9,10 @@ struct ContenView: Vies {
             .font(.system(size:100))
             .foregroundColor(.white)
     }
+    Text("John Doe")
+        .font(.largeTitle)
+    Text("SwiftUI Engineer")
+        .font(.subheadline)
     
 struct ContentView_Previews: PreviewProvider{
     static var previews: some View {
