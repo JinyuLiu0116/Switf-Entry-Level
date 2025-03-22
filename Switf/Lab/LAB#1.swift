@@ -17,17 +17,10 @@ struct ContentView: View {
                             .foregroundColor(.white)
                         VStack{
                             Text("Basic")
-
                                 .font(.title)
-
                                 .font(.system(size:15))
-
-                                
-
                             Text("$9")
-
                             Text("per month")
-
                                 .font(.subheadline)
 
                         }
