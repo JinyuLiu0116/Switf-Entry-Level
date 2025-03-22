@@ -27,19 +27,12 @@ struct ContentView: View {
                     ZStack{
                         Rectangle()
                             .frame(width:200,height:100)
-
                             .foregroundColor(.yellow)
-
                             .cornerRadius(10)
-
                         VStack{
-
                             Text("Gold")
-
                                 .font(.title)
-
                                 .font(.system(size:15))
-
                             Text("$49")
                             Text("per month")
                                 .font(.subheadline)
