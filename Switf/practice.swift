@@ -13,6 +13,20 @@ struct ContenView: Vies {
         .font(.largeTitle)
     Text("SwiftUI Engineer")
         .font(.subheadline)
+    HStack{
+        ZStack{
+            Rectangle()
+                .frame(width:100,height:50)
+                .foregroundColor(.bule)
+                .cornerRadius(10)
+            VStack{
+                Image(systemName:"message")
+                    .foregroundColor(.white)
+                Text("message")
+                    .foregroundColor(.white)
+            }
+        }
+       
     
 struct ContentView_Previews: PreviewProvider{
     static var previews: some View {
