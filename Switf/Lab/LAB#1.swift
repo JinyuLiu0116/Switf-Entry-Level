@@ -37,15 +37,9 @@ struct ContentView: View {
                             Text("per month")
                                 .font(.subheadline)
                         }
-
                     }
-
-                    
-
                 }
-
                ZStack{
-
                    Rectangle()
 
                        .frame(width:400,height:100)
