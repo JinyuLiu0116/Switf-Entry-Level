@@ -5,17 +5,11 @@ struct ContentView: View {
         ZStack{
             Color.black
             .edgesIgnoringSafeArea(.all)
-
             VStack{
-
                 Text("Choose your subscription")
-
                     .font(.title)
-
                     .foregroundColor(.white)
-
                 HStack{
-
                     ZStack{
 
                         Rectangle()
