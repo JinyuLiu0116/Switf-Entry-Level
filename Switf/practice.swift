@@ -26,8 +26,20 @@ struct ContenView: Vies {
                     .foregroundColor(.white)
             }
         }
-       
-    
+        ZStack{
+            Rectangel()
+                .frame(width:100,height:50)
+                .foregroundColor(.bule)
+                .cornerRadius(10)
+            Vstack{
+                Image(systemName:"phone")
+                    .foregroundColor(.white)
+                Text("call")
+                    .foregroundColor(.white)
+            }
+        }
+    }
+}
 struct ContentView_Previews: PreviewProvider{
     static var previews: some View {
         ContentView()
