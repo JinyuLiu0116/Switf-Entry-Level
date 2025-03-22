@@ -11,17 +11,11 @@ struct ContentView: View {
                     .foregroundColor(.white)
                 HStack{
                     ZStack{
-
                         Rectangle()
-
                             .frame(width:200,height:100)
-
                             .cornerRadius(10)
-
                             .foregroundColor(.white)
-
                         VStack{
-
                             Text("Basic")
 
                                 .font(.title)
